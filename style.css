@@ -1,30 +1,23 @@
 body {
-
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(91 89 91);
 }
-
 * {
     margin: 0;
     padding: 0;
 }
-
 a {
     text-decoration: none;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 .port img {
     width: 50px;
 }
-
 ul li {
     list-style: none;
 }
-
 .navBar {
     display: flex;
     justify-content: space-between;
@@ -32,13 +25,10 @@ ul li {
     flex: wrap;
     margin: 0 35px 0 32px;
     padding: 10px 105px 10px 105px;
-
 }
-
 .navBar a {
     color: #fff;
 }
-
 .port {
     display: flex;
     justify-content: space-between;
@@ -46,52 +36,40 @@ ul li {
     gap: 7px;
     font-size: 20px;
 }
-
 .navBar ul li a:hover {
     cursor: pointer;
     background-color: rgb(103, 103, 107);
     border-radius: 3px;
 }
-
 .items li i:hover {
     transform: translateY(10px);
     transition: transform 0.5s;
     background-color: rgb(103, 103, 107);
 }
-
 .items li {
     font-size: 20px;
     display: inline-block;
     padding: 0 10px 0 10px;
 }
-
 .items li i {
     color: #00264d;
 }
-
 .home {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding:170px; */
-    /* gap: 50px; */
     padding: 5px 30px 5px 30px;
     margin: 5px 35px 5px 35px;
 }
-
 .image1 {
     margin: 0 10px 0 10px;
     padding: 0 10px 0 10px;
 }
-
 .image1 img {
     width: 33vw;
     filter: drop-shadow(5px 5px 5px);
 }
-
 .name {
-    /* position: relative;
-    right: 35px; */
     font-size: 38px;
     font-family: fantasy;
     text-shadow: 5px 5px 3px #0f0e0e;
@@ -99,11 +77,9 @@ ul li {
     margin: 0 10px 0 10px;
     color: antiquewhite;
 }
-
 .hel {
     font-size: 28px;
 }
-
 .capitalName {
     font-size: 38px;
 }
@@ -111,7 +87,6 @@ ul li {
 .specilization {
     font-size: 37px;
 }
-
 .about {
     display: flex;
     justify-content: center;
@@ -120,18 +95,15 @@ ul li {
     padding: 0px 30px 35px 30px;
     background-color: #394552;
 }
-
 .image2 {
     flex-basis: 50%;
     margin: 35px 0 0 30px;
     padding: 40px 0 0 50px;
 }
-
 .image2 img {
     width: 278px;
     border-radius: 35%;
 }
-
 .introduction {
     color: #fff;
     flex-basis: 65%;
@@ -139,7 +111,6 @@ ul li {
     margin: 0px 20px 0 0;
     padding: 37px 50px 0 0;
 }
-
 .skillPortfolio {
     display: flex;
     justify-content: center;
@@ -148,25 +119,20 @@ ul li {
     padding: 0px 35px 0px 35px;
     background-color: #394552;
 }
-
 .h3Class {
     margin-bottom: 20px;
 }
-
 .paraghraph p {
     font-weight: 100;
     padding: 0;
     color: #e3dede;
-    
 }
-
 .slide {
     /* top: 110px; */
     position: absolute;
     top: 0;
     right: 0;
 }
-
 .skills {
     color: #fff;
     padding: 0 15px 40px;
@@ -174,27 +140,21 @@ ul li {
     margin: 43px 53px;
     font-size: 20px;
 }
-
 .skills h3 {
     padding: 0 0 15px;
 }
-
 .image3 {
     position: relative;
     margin: 25px 99px 25px 88px;
     padding: 0px 0 271px 0;
     flex-basis: 40%;
 }
-
 .image3 img {
     width: 190px;
 }
-
-
-
 .project {
     margin: 56px 35px ;
-    padding: 26px 94px 56px 94px;
+    padding: 26px 87px 56px 87px;
     background-color: #394552;
 }
 .scrollbar {
@@ -206,37 +166,33 @@ ul li {
     overflow: scroll;
     height: 60vh;
 }
-
 .project h1{
-    margin: 0 0 2rem 2rem;
+    margin:2rem 1rem;
+    color: white;
 }
-
 table {
     width: 100%;
+    border-collapse: collapse;
 }
-
 .scrollbar table tr {
-    font-size: 25px;
+    font-size: 22px;
 }
-
 table tr th {
-    padding: 2px 70px 2px 70px;
-    color: #0a0a0a;
-}
-
-table tr td {
-    padding: 2px 70px;
-    color: #fff;
-}
-
-.col1{
+    padding: 9px 52px 9px 10px;
+    color: white;
     background-color: #858585;
+    font-weight: 100;
 }
-
+table tr td {
+    padding: 12px 8px;
+    color: #0f0f0f;
+}
+.col1{
+    background-color: #ffffffba;
+}
 .col2{
-    background-color: #394552;
+    background-color: #c0c5cb;
 }
-
 .contact {
     margin: 10px 35px 80px 35px;
     padding: 30px 30px 40px 30px;
@@ -246,48 +202,38 @@ table tr td {
     font-size: 25px;
     background-color: #394552;
 }
-
 .contactDetails {
     padding: 5px 20px 0 0;
     font-size: 20px;
 }
-
 .contactDetails h1 {
     padding: 12px 0 12px;
     color: #fff;
 }
-
 .email {
     padding: 12px 0 12px;
 }
-
 .mobileNo {
     padding: 12px 0 12px;
 }
-
 .socialMedia {
     padding: 12px 0 12px;
 }
-
 .socialMedia a i {
     padding: 0 6px 0 6px;
 }
-
 .socialMedia a i:hover {
     transform: translateY(10px);
     transition: transform 0.5s;
 }
-
 .contactDetails a {
     text-decoration: none;
     color: #fff;
 }
-
 .comment {
     margin: 31px 0 0 35px;
     padding-top: 10px;
 }
-
 .takeInput {
     display: block;
     width: 100vh;
@@ -297,7 +243,6 @@ table tr td {
     border-radius: 6px;
     border: 1px solid black;
 }
-
 .comment button {
     width: 70px;
     height: 30px;
@@ -306,7 +251,6 @@ table tr td {
     border: 1px solid black;
     cursor: pointer;
 }
-
 .footer {
     width: 100%;
     height: 50px;
@@ -315,11 +259,9 @@ table tr td {
     justify-content: center;
     align-items: center;
 }
-
 #humberger {
     display: none;
 }
-
 @media only screen and (max-width: 600px) {
     header {
         position: relative;
@@ -335,11 +277,9 @@ table tr td {
         top: 0;
         left: 0;
     }
-
     .items {
         display: none;
     }
- 
     .items {
         top: 50px;
         position: absolute;
@@ -347,24 +287,18 @@ table tr td {
         cursor: pointer;
         background-color: #394552;
     }
-
     .items li {
         display: block;
         margin-top: 22px;
         padding-bottom: 22px;
     }
-
     .fa-bars {
         display: block;
     }
-
     .fa-bars {
-        
         position: absolute;
         top: 22px;
         right: 13px;
-        /* margin: 7px 0px 0px 0px;
-        padding: 7px 22px 15px 19px; */
 
     }
     .contact{
@@ -388,18 +322,15 @@ table tr td {
     .container{
         position: relative;
         top: 7rem;
-        /* text-align: center; */
     }
     .home{
         display: inline-block;
         margin: 0;
     }
-    
     .name{
        margin:0;
        padding: 0;
        text-align: center;
-
     }
     .intro{
         font-size: 24px
@@ -414,7 +345,6 @@ table tr td {
     .image1 img{
         width: 65vw;
     }
-
     .image2 img{
         width: 30vw;
         display: none;
@@ -430,22 +360,15 @@ table tr td {
     }
     .about{
         display:inline-block ;
-        /* margin: 0;
-        padding: 0;
-        width: 25rem; */
     }
     .introduction{
         margin: 0;
         padding: 0;
         font-size: 14px;
     }
-
     .skillPortfolio {
         display: inline-block;
         padding: 0;
-        /* margin: 0;
-       
-        width: 25rem; */
     }
 
     .skills {
@@ -457,7 +380,6 @@ table tr td {
         margin: 0 2rem 3rem;
         padding: 2rem;
     }
-    
     .scrollbar {
         border-top: 0; 
         border-left: 0; 
@@ -472,9 +394,6 @@ table tr td {
     }
     table tr td {
         padding: 4px 10px;
-    }
-    .h3Class {
-        /* margin-left: 17px; */
     }
 }
 
