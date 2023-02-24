@@ -166,16 +166,14 @@ ul li {
     overflow: scroll;
     height: 60vh;
 }
-<<<<<<< HEAD
 .project h3{
     margin:1rem 1rem 1.5rem;
     color: white;
     font-size: 24px;
-=======
+}
 .project h1{
     margin:2rem 1rem;
     color: white;
->>>>>>> c1efd30307d9d26655168d9c8b145260fdb5470a
 }
 table {
     width: 100%;
@@ -199,12 +197,9 @@ table tr td {
 }
 .col2{
     background-color: #c0c5cb;
-<<<<<<< HEAD
 }
 .heading{
     color: white;
-=======
->>>>>>> c1efd30307d9d26655168d9c8b145260fdb5470a
 }
 .contact {
     margin: 10px 35px 80px 35px;
@@ -359,15 +354,12 @@ table tr td {
     .image1 img{
         width: 65vw;
     }
-<<<<<<< HEAD
     .image1 {
         margin: 0 10px 0 40px;
     }
     .image2{
         margin: 0;
     }
-=======
->>>>>>> c1efd30307d9d26655168d9c8b145260fdb5470a
     .image2 img{
         width: 30vw;
         display: none;
@@ -381,12 +373,9 @@ table tr td {
         margin: -43px -6px 0px;
     }
     .about{
-<<<<<<< HEAD
         display: inline-block;
         padding: 37px;
-=======
         display:inline-block ;
->>>>>>> c1efd30307d9d26655168d9c8b145260fdb5470a
     }
     .introduction{
         margin: 0;
@@ -439,7 +428,6 @@ table tr td {
     table tr td {
         padding: 4px 10px;
     }
-<<<<<<< HEAD
     .contactDetails h1{
         font-size: 24px;
     }
@@ -449,6 +437,4 @@ table tr td {
     .socialMedia{
         font-size: 24px;
     }
-=======
->>>>>>> c1efd30307d9d26655168d9c8b145260fdb5470a
 }
